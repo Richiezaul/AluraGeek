@@ -1,0 +1,64 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Almohada",
+      "img": "/img/productos/almoada.png",
+      "price": "80.00"
+    },
+    {
+      "id": 2,
+      "nombre": "Game Boy",
+      "img": "/img/productos/game_boy.svg",
+      "price": "200.00"
+    },
+    {
+      "id": 3,
+      "nombre": "Cartera",
+      "img": "/img/productos/cartera.png",
+      "price": "20.00"
+    },
+    {
+      "id": 4,
+      "nombre": "Laptop",
+      "img": "/img/productos/laptop.png",
+      "price": "800.00"
+    },
+    {
+      "id": 5,
+      "nombre": "Lentes",
+      "img": "/img/productos/lentes.png",
+      "price": "50.00"
+    },
+    {
+      "id": 6,
+      "nombre": "Mesa",
+      "img": "/img/productos/mesa.png",
+      "price": "90.00"
+    },
+    {
+      "id": 7,
+      "nombre": "Pelota",
+      "img": "/img/productos/pelota.png",
+      "price": "80.00"
+    },
+    {
+      "id": 8,
+      "nombre": "Pesas",
+      "img": "/img/productos/pesas.png",
+      "price": "80.00"
+    },
+    {
+      "id": 9,
+      "nombre": "Pipon",
+      "img": "/img/productos/pinpon.png",
+      "price": "80.00"
+    },
+    {
+      "nombre": "Test",
+      "price": "9000,000",
+      "img": "/img/productos/pesas.png",
+      "id": 10
+    }
+  ]
+}

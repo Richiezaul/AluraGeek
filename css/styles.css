@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("../fonts/PressStart2P.ttf"); /* Replace with the actual font file path */
+}
+
+htlm {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.AluraGeek__Logo {
+  height: 96px;
+  background-color: #5300c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.AluraGeek__seccions {
+  margin-top: 50px;
+  display: flex;
+}
+
+.AluraGeek__product {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+.AluraGeek__product__title {
+  text-align: center;
+  font-family: "Press Start 2P", monospace;
+}
+
+.AluraGeek__product--items {
+  max-height: 60vh;
+  max-width: 150vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  opacity: 0px;
+  z-index: 1;
+  overflow-y: auto;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-color: #ecf3ea;
+  border-radius: 20px;
+  box-shadow: -12px 10px 5.8px 0px #00000040;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8c0375;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+.AluraGeek__product__card {
+  height: 258px;
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #5300c8;
+  margin: 0 0 40px 20px;
+  width: Hug (196px) px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.AluraGeek__product__card_img {
+  width: 176px;
+  height: 174px;
+  margin-bottom: 10px;
+  border-radius: 5px 0px 0px 0px;
+  border: 3px;
+  opacity: 0px;
+}
+.AluraGeek__product__card__name {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.AluraGeek__product__card__price {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.AluraGeek__product__card--opt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AluraGeek__Form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.AluraGeek__Form_titulo {
+  font-family: "Press Start 2P", monospace;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.AluraGeek__Form_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+.AluraGeek__Form_input_text {
+  height: 58px;
+  gap: 0px;
+  border-radius: 30px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+  border: 3px solid #03318c;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-left: 20px;
+}
+
+.AluraGeek__Form__btn--group {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.AluraGeek__Form_btn {
+  width: 188px;
+  height: 55px;
+  gap: 10px;
+  border-radius: 15px;
+  opacity: 0px;
+  border: 3px solid #03318c;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #03318c;
+}
+
+.btn_enviar {
+  background-color: #03318c;
+  color: #ffffff;
+}
+
+.AluraGeek__footer {
+  font-family: "IBM Plex Mono", monospace;
+
+  background-color: #5300c8;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 915px) {
+  .AluraGeek__seccions {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .AluraGeek__Form {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+  }
+
+  .AluraGeek__Form_inputs {
+    padding: 0px;
+    gap: 20px;
+  }
+  .AluraGeek__Form_input_text {
+    margin: 0 20px;
+  }
+  .AluraGeek__Form_btn {
+    margin: 0 20px;
+    max-width: 150px;
+  }
+}
